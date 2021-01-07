@@ -1,0 +1,53 @@
+.fp-picker-container {
+
+    position: relative;
+
+    .fp-picker {
+        position: relative;
+        display: inline-block;
+        margin-left: 10px;
+        border-radius: 3px;
+        height: 24px;
+        width: 24px;
+        // background-color: black;
+    }
+
+    .fp-popup {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        overflow-y: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .fp-hide {
+        display: none;
+    }
+
+    .fp-picker-wrapper {
+        background-color: #fff;
+        box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+        border: 1px solid;
+        border-radius: 5px;
+        padding: 0.5em 0;
+        position: absolute;
+        top: 24px;
+
+        span {
+            position: relative;
+            text-align: center;
+            cursor: pointer;
+            
+            &:hover {
+                transform-origin: center center;
+                background-color: #fff;
+                box-shadow: 0 0 5px;
+                z-index: 2;
+                width: 1em;
+                height: 1em;
+                transform: translate(50%, 50%) scale(3);
+            }
+        }
+    }
+}

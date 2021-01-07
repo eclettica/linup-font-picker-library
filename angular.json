@@ -125,6 +125,46 @@
           }
         }
       }
+    },
+    "linup-font-picker": {
+      "projectType": "library",
+      "root": "projects/linup-font-picker",
+      "sourceRoot": "projects/linup-font-picker/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "tsConfig": "projects/linup-font-picker/tsconfig.lib.json",
+            "project": "projects/linup-font-picker/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/linup-font-picker/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/linup-font-picker/src/test.ts",
+            "tsConfig": "projects/linup-font-picker/tsconfig.spec.json",
+            "karmaConfig": "projects/linup-font-picker/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/linup-font-picker/tsconfig.lib.json",
+              "projects/linup-font-picker/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }
   },
   "defaultProject": "linup-font-picker-library"

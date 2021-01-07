@@ -1,0 +1,8 @@
+[
+    {
+      "label": "SYMBOL",
+      "id":"com.moviemasher.font.symbol",
+      "type":"font",
+      "source": "module/font/symbol/symbol-signs-fontfacekit/webfonts/symbolsigns_basisset_macroman/symbol-signs-webfont.ttf"
+    }
+  ]
