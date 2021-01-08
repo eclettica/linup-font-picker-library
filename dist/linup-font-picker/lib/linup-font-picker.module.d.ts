@@ -6,4 +6,3 @@ export declare class LinupFontPickerModule {
     static ɵmod: i0.ɵɵNgModuleDefWithMeta<LinupFontPickerModule, [typeof i1.LinupFontPickerComponent, typeof i2.LnFontPickerComponent], [typeof i3.CommonModule], [typeof i1.LinupFontPickerComponent, typeof i2.LnFontPickerComponent]>;
     static ɵinj: i0.ɵɵInjectorDef<LinupFontPickerModule>;
 }
-//# sourceMappingURL=linup-font-picker.module.d.ts.map

@@ -4,4 +4,3 @@ export declare class LinupFontPickerService {
     static ɵfac: i0.ɵɵFactoryDef<LinupFontPickerService, never>;
     static ɵprov: i0.ɵɵInjectableDef<LinupFontPickerService>;
 }
-//# sourceMappingURL=linup-font-picker.service.d.ts.map

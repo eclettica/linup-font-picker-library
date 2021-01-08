@@ -2,16 +2,18 @@
   "name": "linup-font-picker",
   "version": "0.0.1",
   "peerDependencies": {
-    "@angular/common": "^11.0.6",
-    "@angular/core": "^11.0.6"
+    "@angular/common": "^9.1.13",
+    "@angular/core": "^9.1.13"
   },
   "dependencies": {
-    "tslib": "^2.0.0"
+    "tslib": "^1.10.0"
   },
   "main": "bundles/linup-font-picker.umd.js",
-  "module": "fesm2015/linup-font-picker.js",
+  "module": "fesm5/linup-font-picker.js",
   "es2015": "fesm2015/linup-font-picker.js",
+  "esm5": "esm5/linup-font-picker.js",
   "esm2015": "esm2015/linup-font-picker.js",
+  "fesm5": "fesm5/linup-font-picker.js",
   "fesm2015": "fesm2015/linup-font-picker.js",
   "typings": "linup-font-picker.d.ts",
   "sideEffects": false,

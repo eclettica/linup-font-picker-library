@@ -133,7 +133,7 @@
       "prefix": "lib",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "builder": "@angular-devkit/build-ng-packagr:build",
           "options": {
             "tsConfig": "projects/linup-font-picker/tsconfig.lib.json",
             "project": "projects/linup-font-picker/ng-package.json"

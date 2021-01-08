@@ -14,4 +14,3 @@ export declare class LnFontPickerComponent implements OnInit {
     static ɵfac: i0.ɵɵFactoryDef<LnFontPickerComponent, never>;
     static ɵcmp: i0.ɵɵComponentDefWithMeta<LnFontPickerComponent, "ln-font-picker", never, { "listItems": "listItems"; "fontFamily": "fontFamily"; "closeOnSelect": "closeOnSelect"; }, { "onSelect": "onSelect"; }, never, never>;
 }
-//# sourceMappingURL=ln-font-picker.component.d.ts.map

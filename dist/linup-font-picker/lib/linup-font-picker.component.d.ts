@@ -6,4 +6,3 @@ export declare class LinupFontPickerComponent implements OnInit {
     static ɵfac: i0.ɵɵFactoryDef<LinupFontPickerComponent, never>;
     static ɵcmp: i0.ɵɵComponentDefWithMeta<LinupFontPickerComponent, "linup-font-picker", never, {}, {}, never, never>;
 }
-//# sourceMappingURL=linup-font-picker.component.d.ts.map
