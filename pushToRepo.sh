@@ -2,7 +2,7 @@
 
 sourcedir=/data/eclettica/work/LINUP/librerie/linup-font-picker-library/dist/linup-font-picker
 targetdir=/data/eclettica/work/LINUP/librerie/githubRepo/linup-font-picker
-branch=angularv9
+branch=angularv7
 
 echo "move to $targetdir"
 cd $targetdir

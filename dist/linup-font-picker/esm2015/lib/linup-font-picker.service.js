@@ -1,14 +1,19 @@
+/**
+ * @fileoverview added by tsickle
+ * Generated from: lib/linup-font-picker.service.ts
+ * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingRequire,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ */
 import { Injectable } from '@angular/core';
 import * as i0 from "@angular/core";
 export class LinupFontPickerService {
     constructor() { }
 }
-LinupFontPickerService.ɵfac = function LinupFontPickerService_Factory(t) { return new (t || LinupFontPickerService)(); };
-LinupFontPickerService.ɵprov = i0.ɵɵdefineInjectable({ token: LinupFontPickerService, factory: LinupFontPickerService.ɵfac, providedIn: 'root' });
-/*@__PURE__*/ (function () { i0.ɵsetClassMetadata(LinupFontPickerService, [{
-        type: Injectable,
-        args: [{
+LinupFontPickerService.decorators = [
+    { type: Injectable, args: [{
                 providedIn: 'root'
-            }]
-    }], function () { return []; }, null); })();
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibGludXAtZm9udC1waWNrZXIuc2VydmljZS5qcyIsInNvdXJjZVJvb3QiOiJuZzovL2xpbnVwLWZvbnQtcGlja2VyLyIsInNvdXJjZXMiOlsibGliL2xpbnVwLWZvbnQtcGlja2VyLnNlcnZpY2UudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsT0FBTyxFQUFFLFVBQVUsRUFBRSxNQUFNLGVBQWUsQ0FBQzs7QUFLM0MsTUFBTSxPQUFPLHNCQUFzQjtJQUVqQyxnQkFBZ0IsQ0FBQzs7NEZBRk4sc0JBQXNCOzhEQUF0QixzQkFBc0IsV0FBdEIsc0JBQXNCLG1CQUZyQixNQUFNO2tEQUVQLHNCQUFzQjtjQUhsQyxVQUFVO2VBQUM7Z0JBQ1YsVUFBVSxFQUFFLE1BQU07YUFDbkIiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBJbmplY3RhYmxlIH0gZnJvbSAnQGFuZ3VsYXIvY29yZSc7XG5cbkBJbmplY3RhYmxlKHtcbiAgcHJvdmlkZWRJbjogJ3Jvb3QnXG59KVxuZXhwb3J0IGNsYXNzIExpbnVwRm9udFBpY2tlclNlcnZpY2Uge1xuXG4gIGNvbnN0cnVjdG9yKCkgeyB9XG59XG4iXX0=
+            },] }
+];
+/** @nocollapse */
+LinupFontPickerService.ctorParameters = () => [];
+/** @nocollapse */ LinupFontPickerService.ngInjectableDef = i0.defineInjectable({ factory: function LinupFontPickerService_Factory() { return new LinupFontPickerService(); }, token: LinupFontPickerService, providedIn: "root" });
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibGludXAtZm9udC1waWNrZXIuc2VydmljZS5qcyIsInNvdXJjZVJvb3QiOiJuZzovL2xpbnVwLWZvbnQtcGlja2VyLyIsInNvdXJjZXMiOlsibGliL2xpbnVwLWZvbnQtcGlja2VyLnNlcnZpY2UudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7QUFBQSxPQUFPLEVBQUUsVUFBVSxFQUFFLE1BQU0sZUFBZSxDQUFDOztBQUszQyxNQUFNLE9BQU8sc0JBQXNCO0lBRWpDLGdCQUFnQixDQUFDOzs7WUFMbEIsVUFBVSxTQUFDO2dCQUNWLFVBQVUsRUFBRSxNQUFNO2FBQ25CIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgSW5qZWN0YWJsZSB9IGZyb20gJ0Bhbmd1bGFyL2NvcmUnO1xuXG5ASW5qZWN0YWJsZSh7XG4gIHByb3ZpZGVkSW46ICdyb290J1xufSlcbmV4cG9ydCBjbGFzcyBMaW51cEZvbnRQaWNrZXJTZXJ2aWNlIHtcblxuICBjb25zdHJ1Y3RvcigpIHsgfVxufVxuIl19
